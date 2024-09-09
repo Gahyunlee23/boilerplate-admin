@@ -1,6 +1,5 @@
 # Admin Configurator (admin-configurator)
 
-An admin panel for the product configurator
 
 ## Install the dependencies
 ```bash
