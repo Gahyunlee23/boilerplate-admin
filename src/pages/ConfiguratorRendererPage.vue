@@ -50,7 +50,7 @@ const fetchProductData = async () => {
   if (skuCode.value) {
     isLoading.value = true;
     try {
-      const response = await axios.get(`http://localhost:49779/v1/matrix/product/${skuCode.value}`);
+      const response = await axios.get(`http://localhost:65296/v1/matrix/product/${skuCode.value}`);
       productData.value = response.data.product;
       console.log(productData.value);
       errorMessage.value = '';
